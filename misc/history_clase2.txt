@@ -1,0 +1,410 @@
+    1  su - academia
+    2  exit
+    3  su - academia 
+    4  sudo apt-get terminator
+    5  vimtutor
+    6  su -
+    7  exit
+    8  vimtutor
+    9  pwd
+   10  dir
+   11  man dir
+   12  man ls
+   13  dir
+   14  man dir
+   15  cat TEST TEST2
+   16  cat TEST
+   17  cat TEST2
+   18  cat TEST TEST2 > TEST3
+   19  cat TEST3
+   20  cat -n TEST2
+   21  cat TEST2
+   22  cat -n TEST2
+   23  clear
+   24  cat TEST
+   25  cat TEST | less
+   26  cat TEST | more
+   27  cat TEST | less
+   28  man dmesg
+   29  dmesg | less
+   30  head dmesg
+   31  dmesg | head
+   32  dmesg | tail
+   33  dmesg | tail 50
+   34  dmesg | tail -50
+   35  less -help
+   36  less --help
+   37  less -h
+   38  cat /var/log/syslog | less
+   39  cat /var/log/syslog
+   40  file /var/log/syslog
+   41  file TEST
+   42  ls
+   43  file deb00.qcow 
+   44  file Plantillas
+   45  cat
+   46  cat /etc/default/keyboard 
+   47  exit
+   48  cd /var/log
+   49  cat syslog
+   50  cd
+   51  ls
+   52  ls -lh
+   53  ls -lhr
+   54  ls -lhri
+   55  ls -lhria
+   56  bashrc
+   57  ./.bashrc
+   58  ll
+   59  type ll
+   60  type ls
+   61  type -ta ls
+   62  ls -color=auto
+   63  cd /bin
+   64  ls
+   65  touch miarchivo.txt
+   66  ls -l
+   67  ln -s miarchivo.txt miotroarhivo.txt
+   68  ls -l
+   69  file miarchivo
+   70  file miarchivo.txt
+   71  file miotroarchivo.txt
+   72  vim miarchivo.txt
+   73  cat miotroarchivo.txt
+   74  miotroarchivo.txt
+   75  ln -s miarchivo.txt miotroarhivo2.txt
+   76  ls -l
+   77  mkdir folder1
+   78  ls -l
+   79  ls -l | grep forlder
+   80  ls -l | grep folder
+   81  mkdir folder1/sub-1
+   82  mkdir folder1/sub-2
+   83  mkdir folder1/sub-3
+   84  ls -l | grep folder
+   85  cd folder1/sub-1
+   86  ls -l
+   87  cd
+   88  cd folder1
+   89  ls -l
+   90  man ls
+   91  ls
+   92  exit
+   93  where is bash
+   94  whereis bash
+   95  whereis -b bash
+   96  which bash
+   97  which bash -a
+   98  umask
+   99  ls ~ > /tmp/home.txt
+  100  cat /tmp/home.txt
+  101  clear
+  102  touch mi_archivo
+  103  rm mi_archivo
+  104  clear
+  105  echo "archivo1 archivo2 archivo3" > archivo0
+  106  ls
+  107  cat archivo0 
+  108  xargs archivo0
+  109  xargs
+  110  cat archivo0 
+  111  cat
+  112  cat archivo0 | xargs touch
+  113  ls
+  114  cat archivo0 | xargs rm
+  115  ls
+  116  exit
+  117  ps
+  118  exit
+  119  find / | grep \/bin\/ 2>/dev/null
+  120  find / | fgrep /bin/ 2>/dev/null
+  121  find / | grep /bin/ 2>/dev/null
+  122  ls /
+  123  ls / d*
+  124  ls / d?
+  125  touch Ab Abc
+  126  ls
+  127  ls | grep *[![:lower:]]
+  128  ls | egrep *[![:lower:]]
+  129  ls -R | egrep *[![:lower:]]
+  130  ls f*
+  131  ls  | egrep *[![:lower:]]
+  132  ls . | egrep *[![:lower:]]
+  133  ls A* | egrep *[![:lower:]]
+  134  find .
+  135  find pwd
+  136  fpws
+  137  pwd
+  138  clear
+  139  ls
+  140  find . /
+  141  find . | egrep *[![:lower:]]
+  142  echo 'ABCD' | egrep ?[ABC]??
+  143  echo 'ABCDEF' | egrep ?[ABC]??
+  144  echo 'ABCDEF' | egrep ?[!ABC]??
+  145  echo 'ABCDEF' | egrep ?[ABC]??
+  146  echo 'ABCDEF' | egrep ?[BC]??
+  147  echo 'AXBCDEF' | egrep ?[BC]??
+  148  mkdir pruebas
+  149  cd pruebas/
+  150  ls
+  151  touch AAAA
+  152  touch ABAA
+  153  touch ACAA
+  154  touch ADAA
+  155  LS
+  156  ls
+  157  ls | -egrep ?[ABC]??
+  158  ls | egrep ?[ABC]??
+  159  ls | egrep ?[ABC]?
+  160  find . | egrep ?[ABC]?
+  161  find . | egrep ?
+  162  find . | egrep ????
+  163  find . | egrep ?????
+  164  find . | egrep A?
+  165  find . | egrep ^A?
+  166  find . | egrep ^A???
+  167  find . | egrep ^A
+  168  find . | egrep '^A'
+  169  exit
+  170  man kill
+  171  man rm
+  172  man tar
+  173  cd /tmp
+  174  cd ..
+  175  ftp 10.124.18.144
+  176  echo "test" | mail -s "Hola" user1
+  177  echo "test" | mail -s "Ha" user1
+  178  echo "test" | mail -s "Hea" user1
+  179  mail
+  180  echo "Hey" | mail -s "saprissa" user1
+  181  touch 0101
+  182  ftp 10.124.18.220
+  183  ifconfig
+  184  ll
+  185  mkdir ANDREY_WAS_HERE
+  186  ll
+  187  calc
+  188  su - academia
+  189  su - academia
+  190  ifconfig
+  191  su - suporte
+  192  sudo - suporte
+  193  su - academia
+  194  echo $VAR1
+  195  exit
+  196  echo $VAR1
+  197  otro_VAR=casa
+  198  exit
+  199  echo hola
+  200  pwd
+  201  ls /
+  202  alias my_year="cal 2017"
+  203  my_year
+  204  dpkg --get-selections | grep linux
+  205  which ls
+  206  ls -l `which ls`
+  207  ls /home
+  208  ls -l h `which ls`
+  209  ls -lh `which ls`
+  210  history
+  211  cls
+  212  clear
+  213  man ls
+  214  man grep
+  215  clear
+  216  man fdisk
+  217  uname
+  218  uname -a
+  219  uname -n
+  220  uname -n -o
+  221  clear
+  222  VAR1=caso
+  223  echo $VAR1
+  224  VAR1=otro
+  225  echo $VAR1
+  226  echo ESTE $VAR1 CASO
+  227  echo 'Este es $VAR1 caso'
+  228  VAR1=5
+  229  VAR2=otro
+  230  mi_var=caso
+  231  echo $VAR1 esta es una salida $VAR2 en el mi_bar
+  232  bash
+  233  export $VAR1
+  234  export VAR1
+  235  bash
+  236  echo $otro_VAR
+  237  set | less
+  238  env | less
+  239  env | grep var
+  240  env | grep VAR
+  241  set | grep VAR
+  242  set | grep -i VAR
+  243  env | less 
+  244  mkdir $HOME/prueba1
+  245  ls $HOME
+  246  pwd | ls 
+  247  cd /etc/apt
+  248  pwd | ls 
+  249  echo $HOME
+  250  mkdir $HOME/prueba1/prueba2
+  251  ls $HOME/prueba1
+  252  cd
+  253  VAR1=`ls *.txt`
+  254  echo $VAR1
+  255  VAR1=$(ls *.txt)
+  256  echo VAR1
+  257  echo $VAR1
+  258  PROYECT=$(pwd)
+  259  echo $PROJECT
+  260  unset $PROJECT
+  261  nano prog1.sh
+  262  mv prog1.sh prueba1
+  263  ls prueba1
+  264  cd prueba1
+  265  chmod 750 prog1.sh 
+  266  ls -l
+  267  ./prog1.sh 
+  268  echo $PATH
+  269  cd
+  270  ld
+  271  ls
+  272  mkdir bin
+  273  ls
+  274  cp ./prueba1/prog1.sh ./bin/
+  275  ls /bin
+  276  cd bin/
+  277  ls
+  278  cd ../
+  279  mv ./bin/prog1.sh ./bin/prog1
+  280  prog1
+  281  PATH=/opt/bin:$PATH
+  282  echo $PATH
+  283  echo $VAR2
+  284  unset VAR2
+  285  echo $VAR2
+  286  nano .bashrc 
+  287  cowsay hola admin!
+  288  tail -200 .bash_history
+  289  nano  .bash_history
+  290  history > history.txt
+  291  ls
+  292  cd /tmp/
+  293  dd if=/dev/zero of=/tmp/data.out bs=1 count=12
+  294  ls -l
+  295  split -b 2 data.out 
+  296  ls -l
+  297  cat xa* > data2.out
+  298  ls -l
+  299  split -n 4 data.out salidas.
+  300  ls
+  301  ls -l
+  302  id
+  303  exit
+  304  find 
+  305  clear
+  306  ifnd
+  307  find
+  308  clear
+  309  find . -name Descarga
+  310  find . -name Descargas
+  311  find / -name Descargas
+  312  find / -name Descargas | less
+  313  find . -name 'Des*'
+  314  find / -name Des*
+  315  clear
+  316  find . -name Des*
+  317  find . -name 'Des*'
+  318  clea
+  319  clear
+  320  cd te
+  321  ls
+  322  mkdir test
+  323  cd test/
+  324  cd /tmp/test/
+  325  clear
+  326  vim
+  327  cd
+  328  cd test/
+  329  vim file1
+  330  git
+  331  git config --global user.name "josemigrm21"
+  332  git config --global user.mail "jjosemigrm@gmail.com"
+  333  cat ~/.gitconfig
+  334  git config --global user.name "Jose Miguel Rodriguez M"
+  335  cat ~/.gitconfig
+  336  clear
+  337  cat ~/.gitconfig
+  338  ls
+  339  ls -a
+  340  clear
+  341  ls -a
+  342  clear
+  343  ls
+  344  rm file*
+  345  ls
+  346  mkdir src
+  347  mkdir docs
+  348  mkdir misc
+  349  mkdir tools
+  350  vi README.md
+  351  ls
+  352  touch README.md
+  353  ls
+  354  vim .gitignore
+  355  tree
+  356  cat .gitignore
+  357  tree
+  358  touch docs/.gitignore 
+  359  touch src/.gitignore 
+  360  touch misc/.gitignore 
+  361  touch tools/.gitignore 
+  362  tree -a
+  363  tree ./ -a
+  364  tree ../ -a
+  365  clear
+  366  tree -a
+  367  echo '*.swp' >> .gitignore 
+  368  cat .gitignore
+  369  git init
+  370  tree .git
+  371  git add --all
+  372  git status 
+  373  git commit -m "Inicializacion del repo de Linux"
+  374  git config --global user.email "jjosemigrm@gmail.com"
+  375  git commit -m "Inicializacion del repo de Linux"
+  376  git log
+  377  ifconfig > misc/interfaces
+  378  dmesg > misc/kernel
+  379  df -lh > docs/espacios
+  380  tree
+  381  git status 
+  382  git add misc/interfaces 
+  383  git add docs/espacios 
+  384  git status 
+  385  git commit -m "Agrego archivos de espacios e interfaces"
+  386  git log
+  387  cp /etc/apt/sources.list misc/
+  388  git status 
+  389  vim docs/espacios 
+  390  git status 
+  391  dit diff docs/espacios 
+  392  git diff docs/espacios 
+  393  git add docs/espacios 
+  394  git add misc/kernel
+  395  git status 
+  396  git commit -m "Modificacion del header de espacios y agrego archivo de Kernel"
+  397  git log
+  398  git remote add origin https://github.com/josemigrm21/LXS1_Jose.Rodriguez.git
+  399  git remote -v
+  400  git push -u origin master
+  401  git status 
+  402  tree
+  403  git add misc/sources.list 
+  404  vim misc/interfaces 
+  405  git status 
+  406  git add misc/interfaces 
+  407  git status 
+  408  git commit -m "Agrego sources.list y modifico interfaces"
+  409  git push -u origin master
+  410  history > misc/history_clase2.txt
